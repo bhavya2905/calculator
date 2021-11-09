@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(141, 59, 59);
+            
+        }
+        .card{
+            background-color: white;
+            width: 300px;
+            height: 460px;
+            position: absolute;
+            top: 45px;
+            left: 140px;
+            box-shadow: 0px 0px 30px;
+            
+        }
+        button{
+            border-radius: 50%;
+            border-width: 0;
+            width: 50px;
+            height: 50px;
+            margin: 10px;
+            float: left;
+        }
+        #numpad{
+            /* border: 2px solid black; */
+            height: 400px;
+        }
+        #pre{
+            /* float: right; */
+            text-align: right;
+            color: gray;
+            margin-right: 30px;
+            /* border: 2px solid black; */
+            position: r;
+            margin-bottom: -20px;
+        }
+        #ans{
+            /* float: right; */
+            text-align: right;
+            font-size: 30px;
+            margin-right: 30px;
+            position: relative;
+            margin-bottom: -20px;
+            /* border: 2px solid red; */
+        }
+        .num{
+            background-color: white;
+            font-size: 20px;
+        }
+        button:nth-child(4){
+            background-color: #20b2aa;
+            font-size: 20px;
+        }
+        button:nth-child(8){
+            background-color:orange;
+            font-size: 20px;
+        }
+        button:nth-child(12){
+            background-color: #c5749a;
+            font-size: 20px;
+        }
+        button:nth-child(16){
+            background-color: #6e7fb9;
+            font-size: 20px;
+        }
+        button:nth-child(20){
+            background-color: #a56cb1;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div id='value'>
+            <div id="pre"><p>9*9</p></div>
+            <div id="ans"> <p>81</p></div>
+        </div>
+        
+        <div id='numpad'>
+            <button class='op' >C</button>
+            <button  class='op' >CE</button>
+            <button class='op'  >%</button>
+            <button class='op'  >/</button>
+            <button  class='num'>7</button>
+            <button class='num' >8</button>
+            <button  class='num'>9</button>
+            <button  class='op' >x</button>
+            <button  class='num'>4</button>
+            <button  class='num'>5</button>
+            <button  class='num'>6</button>
+            <button  class='op' >-</button>
+            <button  class='num'>1</button>
+            <button  class='num'>2</button>
+            <button  class='num'>3</button>
+            <button class='op'  >+</button>
+            <button class='num' ></button>
+            <button class='num' >0</button>
+            <button class='num' ></button>
+            <button class='op'  >=</button>
+        </div>
+        
+    </div>
+</body>
+</html>
